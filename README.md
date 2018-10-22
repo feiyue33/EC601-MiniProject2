@@ -24,3 +24,6 @@ This mini project aims to better understand the basic workflow of deep learning.
 > Building a CNN to classify images. The CNN model only has two convolution layers.
 
 * Step5: Validate & Test
+
+## Analysis
+When training the model, if we set the learning rate to 0.01, the loss function will keep at 0.69 after 100 epochs. However, if we set the learning rate to 0.001, the loss function will decrease to nearly 0 after 100 epochs.
