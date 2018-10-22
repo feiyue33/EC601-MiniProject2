@@ -30,7 +30,6 @@ def create_record():
     writer.close()
 
 
-# =======================================================================================
 def read_and_decode(filename):
     filename_queue = tf.train.string_input_producer([filename])
     # create a reader from file queue
